@@ -2,7 +2,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv:2511.18794-b31b1b)](https://arxiv.org/abs/2511.18794)
 [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/ZhongtaoWang/ChronoGS)
-[![Dataset](https://img.shields.io/badge/Dataset-ChronoScene-blue)](https://github.com/ZhongtaoWang/ChronoScene/DATASET.md)
+[![Dataset](https://img.shields.io/badge/Dataset-ChronoScene-blue)]([https://github.com/ZhongtaoWang/ChronoScene/DATASET.md](https://github.com/ZhongtaoWang/ChronoGS/blob/main/DATASET.md))
 
 <p align="center">
   <img src="assets/teaser.png" width="100%">

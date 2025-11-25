@@ -107,7 +107,6 @@ def training(dataset, opt, pipe, dataset_name, testing_iterations, saving_iterat
     first_iter += 1
     modules = __import__('gaussian_renderer')
     for iteration in range(first_iter, opt.iterations + 1):        
-        # network gui not available in octree-gs yet
         if network_gui.conn == None:
             network_gui.try_connect()
         while network_gui.conn != None:
@@ -538,7 +537,7 @@ if __name__ == "__main__":
         wandb.login()
         run = wandb.init(
             # Set the project where this run will be logged
-            project=f"Octree-GS",
+            project=f"ChronoGS",
             name=exp_name,
             # Track hyperparameters and run metadata
             settings=wandb.Settings(start_method="fork"),

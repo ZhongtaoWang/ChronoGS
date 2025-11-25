@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cu124 #you can change the version to your own
+torch
+torchvision
+plyfile
+tensorboard
+tqdm
+einops
+wandb
+lpips
+laspy
+jaxtyping
+colorama
+opencv-python
+scikit-learn

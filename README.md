@@ -109,8 +109,7 @@ Train with a configuration file:
 ```bash
 python train.py --config config/chronogs.yaml \
     --source_path /path/to/your/data \
-    --model_path /path/to/output/model \
-    --eval # add this flag to use training/test split for evaluation
+    --model_path /path/to/output/model 
 ```
 
 ### Rendering
@@ -120,8 +119,7 @@ Render a trained model:
 ```bash
 python render.py \
     -m /path/to/output/model \
-    -s /path/to/your/data \
-    --eval # add this flag to use training/test split for evaluation
+    -s /path/to/your/data 
 ```
 
 ### Evaluation
@@ -155,6 +153,7 @@ Main configuration parameters are in `config/chronogs.yaml`:
   - `base_feat_dim`: Base feature dimension (default: 16)
   - `global_feat_dim`: Global feature dimension (default: 32)
   - `n_offsets`: Number of offsets (default: 10)
+  - `eval`: Enable train-test split for evaluation (default: True)
 
 For detailed configuration, please refer to the `config/chronogs.yaml` file.
 

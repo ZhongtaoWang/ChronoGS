@@ -41,9 +41,9 @@ For detailed information about the dataset, including structure, statistics, and
 
 ### Requirements
 
-- Python >= 3.8
-- CUDA >= 11.0
-- PyTorch >= 2.0
+- Python
+- CUDA 
+- PyTorch 
 - CUDA-capable GPU
 
 ### Installation

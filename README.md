@@ -89,10 +89,6 @@ scene_name/
 
 **split.txt file format**: The `split.txt` file is **required** and should be placed in the `sparse/` directory. This file defines the mapping between image names and their corresponding period (timestamp) IDs. Each line contains an image name (without file extension) and its timestamp ID (0~T-1), separated by a space. ChronoGS will automatically calculate the number of periods T from the unique timestamp IDs in this file.
 
-**Important**: The image name in `split.txt` should match the actual image filename **without the file extension**. For example:
-- If your image file is `0000.png`, use `0000` in `split.txt`
-- If your image file is `image_001.jpg`, use `image_001` in `split.txt`
-
 Example `split.txt`:
 ```
 0000.png 0

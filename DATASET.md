@@ -17,7 +17,7 @@ The ChronoScene dataset captures diverse real-world scenarios with temporal vari
 
 - **Geometric Changes**: Building construction, structure modifications, object additions/removals
 - **Appearance Changes**: Seasonal variations, lighting conditions, material changes
-- **Multi-Period Captures**: Each scene contains images captured across multiple time periods (ranging from 2 to 4+ periods)
+- **Multi-Period Captures**: Each scene contains images captured across multiple time periods
 - **Diverse Scenes**: Includes both indoor and outdoor scenes, aerial and ground-level views, urban and natural environments
 
 ## Scene Descriptions

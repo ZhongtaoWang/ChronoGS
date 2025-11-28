@@ -139,7 +139,7 @@ def render_set(base_model, model_path, name, iteration, views, gaussians, pipe, 
 
 def render_sets(dataset, opt, pipe, iteration, skip_train, skip_test, ape_code):
     with torch.no_grad():
-        modules = __import__('scene'+dataset.base_model, fromlist=[''])
+        modules = __import__('scene.'+dataset.base_model, fromlist=[''])
         model_config = dataset.model_config
         gaussians = getattr(modules, model_config['name'])(**model_config['kwargs'])
         scene = Scene(dataset, gaussians, load_iteration=iteration, shuffle=False, resolution_scales=dataset.resolution_scales)

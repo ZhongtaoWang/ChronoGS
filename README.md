@@ -1,4 +1,4 @@
-# ChronoGS: Disentangling Invariants and Changes in Multi-Period Scenes
+# [CVPR26] ChronoGS: Disentangling Invariants and Changes in Multi-Period Scenes
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv:2511.18794-b31b1b)](https://arxiv.org/abs/2511.18794)
 [![Code](https://img.shields.io/badge/Code-Available-green)](https://github.com/ZhongtaoWang/ChronoGS)
